@@ -1,0 +1,28 @@
+
+.logo{padding-top:15px !important;}
+
+#our-services .section-content{padding-top:40px;}
+
+.box-contador{color:#FFF; display:block; padding-bottom:40px; text-align:center;}
+.box-contador div b{font-size:120px !important; font-family: "Montserrat", "Open Sans", Arial; font-weight:700;}
+.box-contador div span{display:block; font-size:28px; font-family: "Montserrat", "Open Sans", Arial; font-weight:400;}
+
+.banner-center-box .description{padding-top:20px;}
+.banner-center-box .description p{margin:8px 0px;}
+.banner-center-box .description .first-p{padding-top:100px !important;}
+.box-info p{font-size:1.3em;}
+
+@media (max-width: 575px) {
+  .banner-center-box .description .first-p{padding-top:220px !important;}
+}
+
+@media (max-width: 992px) {
+  #our-services .section-content{padding-top:80px;}
+
+  .box-contador div b{font-size:80px !important;}
+  .box-contador div span{font-size:18px;}
+
+  .banner-center-box{padding-top:80px;}
+
+  #our-services .section-content{padding-top:30px;}
+}

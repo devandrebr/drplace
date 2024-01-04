@@ -1,0 +1,171 @@
+/* =====================================================================
+ *   "Blue" Skin
+ * =================================================================== */
+/* Style Switcher */
+.demos-preview li a h5 {
+  color: #65a4e4; }
+
+/* Links Colors */
+a {
+  color: #65a4e4; }
+
+a:focus {
+  color: #65a4e4; }
+
+p a:hover {
+  border-color: #65a4e4; }
+
+/* Headings */
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+.subheader {
+  color: #65a4e4; }
+
+/* Text Colored */
+.colored {
+  color: #65a4e4; }
+
+/* Scroll Top */
+.scroll-top,
+.scroll-top:focus {
+  background: #65a4e4; }
+
+/* Buttons */
+.btn.colorful {
+  background: #65a4e4;
+  border-color: #65a4e4; }
+
+.btn.transparent-colorful {
+  color: #65a4e4;
+  border-color: #65a4e4; }
+
+.btn.hover-colorful:hover {
+  background: #65a4e4;
+  border-color: #65a4e4; }
+
+.btn.hover-transparent-colorful:hover {
+  color: #65a4e4;
+  border-color: #65a4e4; }
+
+/* Scroll Progress */
+#scroll-progress .scroll-progress {
+  background: #65a4e4; }
+
+/* Loading Progress */
+#loading-progress::before {
+  background: #65a4e4; }
+
+#loading-progress .lp-bar #lp-bar {
+  background: #65a4e4; }
+
+/* Forms */
+input[type="submit"],
+input[type="submit"].form-control,
+input[type="submit"],
+input[type="submit"].form-control {
+  background: #65a4e4; }
+
+input:focus,
+input.form-control:focus,
+textarea:focus,
+textarea.form-control:focus,
+select:focus,
+select.form-control:focus {
+  border-color: #65a4e4; }
+
+/* Video Preview Banner */
+.video-preview.vp-banner {
+  border-top-color: #65a4e4; }
+
+.video-btn i {
+  background: #65a4e4; }
+
+/* Icons */
+.icon.colorful-icon i {
+  color: #65a4e4; }
+
+/* Testmonial Single 1 */
+.testmonial-single-1 .quote-sign {
+  color: #65a4e4; }
+
+/* Main Menu */
+.sticky #header-wrap .main-menu > li > a.current,
+.sticky #header-wrap .main-menu > li:hover > a,
+.sticky #header-wrap .main-menu > li > a:hover {
+  color: #65a4e4; }
+
+.main-menu > li > a.current,
+.main-menu > li:hover > a,
+.main-menu > li > a:hover {
+  color: #65a4e4; }
+
+.main-menu ul.sub-menu li a:hover, .main-menu ul.sub-menu li:hover > a {
+  color: #65a4e4; }
+
+.main-menu.sf-arrows li > a.sf-with-ul:focus:after,
+.main-menu.sf-arrows li:hover > a.sf-with-ul:after,
+.main-menu.sf-arrows .sfHover > a.sf-with-ul:after {
+  color: #65a4e4; }
+
+/* Mobile Menu */
+.mobile-menu li:hover > a {
+  color: #65a4e4; }
+
+.mobile-menu > li > a:hover, .mobile-menu > li > a.current {
+  color: #65a4e4; }
+
+.mobile-menu.sf-arrows > li > a.sf-with-ul:focus:after,
+.mobile-menu.sf-arrows > li:hover > a.sf-with-ul:after,
+.mobile-menu.sf-arrows > .sfHover > a.sf-with-ul:after {
+  color: #65a4e4; }
+
+.mobile-menu.sf-arrows li > a.sf-with-ul:focus:after,
+.mobile-menu.sf-arrows li:hover > a.sf-with-ul:after,
+.mobile-menu.sf-arrows .sfHover > a.sf-with-ul:after {
+  color: #65a4e4; }
+
+/* Banner Slider */
+.banner-slider .owl-nav [class*="owl-"]:hover {
+  background: #65a4e4; }
+
+.banner-slider .owl-nav [class*="owl-"] {
+  background: #65a4e4; }
+
+.banner-slider .owl-dots .owl-dot.active span, .banner-slider .owl-dots .owl-dot.active:hover span {
+  background: #65a4e4; }
+
+/* Signup Form */
+.signup-form input[type="submit"] {
+  border-color: #65a4e4;
+  background: #65a4e4; }
+
+/* Box Header Form */
+.box-header-form {
+  border-top-color: #65a4e4; }
+
+.box-header-form .form-note i {
+  color: #65a4e4; }
+
+/* Testmonials Slider */
+.testmonials-slider .owl-dots .owl-dot.active span,
+.testmonials-slider .owl-dots .owl-dot.active:hover span {
+  border-color: #65a4e4; }
+
+/* Our Clients */
+#our-clients .section-content {
+  background: #65a4e4; }
+
+/* Clients Slider */
+.clients-slider .owl-nav [class*="owl-"] {
+  background: #65a4e4; }
+
+.clients-slider .owl-dots .owl-dot.active:hover span {
+  background: #65a4e4; }
+
+/* Footer */
+.social-icons.colorful li a {
+  background: #65a4e4; }

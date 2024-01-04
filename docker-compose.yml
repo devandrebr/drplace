@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  drplace:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: imo-drplace
+    restart: always
+    ports:
+      - 10999:80
+    networks:
+      - dev-network
+    volumes:
+      - .:/var/www/html/
+
+networks:
+    dev-network:
+        driver: bridge

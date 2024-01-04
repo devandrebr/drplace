@@ -1,0 +1,401 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Fonts
+2. Body
+3. Headings, Paragraphs, Divider and Selection
+4. Header and hero section
+5. Social icons
+6. Footer
+-------------------------------------------------------------------*/
+
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic,700,700italic,800,800italic);
+
+* {
+	margin: 0;
+	padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+	background: #fff;
+	margin: 0;
+	color: #333;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+hr {
+	margin-top: 30px;
+    margin-bottom: 0;
+    border: 0;
+    border-top: none;
+}
+
+hr.divider {
+	max-width: 70%;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding-top: 50px;
+	margin-bottom: 50px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+p {
+	padding: 0;
+	margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	color: #333;
+	margin-top: 10px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+::selection {
+	color: #fff;
+	text-shadow:none;
+	background:#2980b9;
+}
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+a {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+	color: #2980b9;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #333;
+}
+
+.nopadding {
+	padding: 0px !important;
+	margin: 0px;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.container-fluid {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#top {
+	padding: 18px;
+	margin: 0 auto;
+	border-bottom: 1px solid #e6e8ea;
+	z-index: 5;
+	width: 100%;
+	background-color: #fff;
+}
+
+.logo {
+	width: 280px;
+	margin-left: 50px;
+	float: left;
+}
+
+.headbutt {
+	float: right;
+}
+
+.hero {
+  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 93%, 0 100%);
+  clip-path: polygon(0 0, 1600px 0, 1600px 93%, 0 100%);
+}
+
+.headbutton {
+    margin-right: 70px;
+    border: 1px solid #2980b9;
+    color: #2980b9;
+    float: left;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    box-shadow: inset 0 0 0 0 #fff;
+    transition-duration: 0.5s;
+    -webkit-transition: 0.5s;
+    box-shadow: 0px 2px 9px 0px rgba(147, 149, 152, 0.29);
+}
+
+.headbutton:hover, .headbutton:active, .headbutton:focus {
+	background-color: #2980b9;
+	color: #fff;
+	border: 1px solid #2980b9;
+    transition-duration: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+.hero {
+	background-color: #F2F4F7;
+	text-align: center;
+	padding-top: 3.5em;
+	background: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1500px;
+    max-width: 100%;
+    height: 1200px;
+}
+
+.herohead {
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 34px;
+    margin-left: 2em;
+}
+
+.head2 {
+	padding: 50px 90px;
+	max-width: 100%;
+    overflow: hidden;
+}
+
+.another-head {
+	font-family: Montserrat, sans-serif;
+    font-weight: 300;
+}
+
+img.right-mobile2 {
+    width: 150%;
+    margin-left: -33%;
+}
+
+img.right-mobile3 {
+    width: 150%;
+    margin-left: -15%;
+}
+
+.tesimonials {
+	background-color: #fafafa;
+	text-align: center;
+	margin: 0 auto;
+    padding: 50px;
+}
+
+h3.testimonials {
+
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+p.testimonials {
+   margin-bottom: 70px;
+}
+
+.testi {
+	float: left;
+	background-color: #fff;
+	max-width: 30.5%;
+	max-width: 90%;
+	text-align: left;
+	padding: 20px;
+	margin: 10px 17px;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,.05);
+    border: 1px solid rgba(146, 151, 149, 0.19);
+}
+
+.owl-carousel .owl-wrapper-outer {
+    cursor: -webkit-grab;
+}
+
+.owl-wrapper.grabbing {
+	cursor: -webkit-grabbing;
+}
+
+.avatar {
+	margin-top: 20px;
+	border-radius: 50%;
+    margin-right: 25px;
+    float: left;
+}
+
+.paravatar {
+	padding-top: 20px;
+}
+
+.testdesc {
+	margin-top: 20px;
+}
+
+.CTA {
+	padding: 120px;
+	text-align:	center;
+}
+
+.ctabutton {
+    border: 1px solid #2980b9;
+    color: #fff;
+    background-color: #2980b9;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 15px 30px;
+    margin-top: 1.2em;
+    transition-duration: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.ctabutton:hover, .ctabutton:active, .ctabutton:focus {
+	background-color: #fff;
+	color: #2980b9;
+	border: 1px solid #2980b9;
+	margin-top: 0.8em;
+	padding: 18px 35px;
+	border-radius: 20px;
+	font-size: 120%;
+    transition-duration: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+h3.cta {
+	font-family: 'Open Sans', sans-serif;
+    margin-top: -30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p.cta {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.footer {
+	background-color: #fafafa;
+	text-align: center;
+	margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #e7e7e7;
+}
+
+h3.social {
+	font-weight: bold;
+}
+
+h4.social {
+	padding-bottom: 40px;
+}
+
+.ion-chevron-right {
+	font-size: 14px;
+    margin-left: 4px;
+}
+
+.ion-social-facebook, .ion-social-twitter, .ion-social-instagram-outline, .ion-social-whatsapp,
+.ion-social-googleplus-outline, .ion-social-snapchat, .ion-social-linkedin {
+	margin-top: 12px;
+	float: left;
+    font-size: 65px;
+    padding: 0% 12.5%;
+    line-height: 90px;
+}
+
+.testdesc > a > .ion-social-facebook, .testdesc > a > .ion-social-twitter, .testdesc > a > .ion-social-instagram-outline, .testdesc > a > .ion-social-whatsapp,
+.testdesc > a > .ion-social-googleplus-outline, .testdesc > a > .ion-social-snapchat, .testdesc > a > .ion-social-linkedin {
+	font-size: 40px;
+	padding: 0% 1%;
+	margin: 0 auto;
+}
+
+.ion-social-facebook {
+	color: #3B5998;
+}
+
+.ion-social-twitter {
+	color: #1DA1F2;
+}
+
+.ion-social-instagram-outline {
+	color: #003569;
+}
+
+.ion-social-whatsapp {
+	color: #09D261;
+}
+
+.ion-social-googleplus-outline {
+	color: #D2543D;
+}
+
+.ion-social-snapchat {
+	color: #f6f418;
+}
+
+.ion-social-linkedin {
+	color: #0274B3;
+}
+
+.ion-heart, .ion-ios-heart {
+    color: #D75A4A;
+    padding-left: 2.5px;
+    font-size: 27px;
+    padding-right: 2.5px;
+}
+
+
+.footerbox {
+    max-width: 32.5%;
+    float: left;
+    text-align: left;
+    padding: 20px;
+    margin: 10px 0;
+    transition-duration: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.footerbox:hover, .footerbox:focus, .footerbox:active {
+	transition-duration: 0.3s;
+    -webkit-transition: 0.3s;
+    margin-top: -2px;
+}
+
+.postfooter {
+	padding: 30px 0;
+	font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #6d6d6d;
+    text-align: center;
+}
+
+/* End. Add your changes in custom.css file */

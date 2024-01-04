@@ -1,0 +1,289 @@
+@media screen and (max-width: 991px) {
+
+	.herohead {
+		font-size: 20px;
+		margin-left: 0;
+		text-align: center;
+		margin-top: -1.35em;
+	}
+
+	.headbutton {
+		float: none;
+		display: block;
+    	margin: 0 auto;		
+    	padding: 10px 20px;
+	}
+
+	img.right-mobile2, img.right-mobile3 {
+	    margin-left: 0;
+    	max-width: 100%;
+	}
+
+	.testi {
+    	margin: 0px 15px;
+    	padding: 30px 0px;  		
+	}
+
+	.avatar, .testdesc {
+		margin-right: 25px;
+    	margin-left: 30px;
+	}
+
+	h3.cta {
+		margin-top: -30px;
+		line-height: 1.4;
+	}
+
+	p.cta {
+		font-size: 23px;
+    	margin-top: 40px;
+	}
+
+	.footerbox {
+		padding: 0;
+		text-align: center;
+	}
+
+	.footerbox:hover, .footerbox:focus, .footerbox:active {
+	    margin-top: 0;	
+	}	
+
+	.paravatar {
+    	font-size: 15px;		
+	}
+
+	.ion-social-facebook, .ion-social-twitter, .ion-social-instagram-outline,
+	.ion-social-googleplus-outline, .ion-social-snapchat, .ion-social-linkedin {
+		float: none;
+		padding: 0;
+	}
+
+	.testdesc > a > .ion-social-facebook, .testdesc > a > .ion-social-twitter, .testdesc > a > .ion-social-instagram-outline,
+	.testdesc > a > .ion-social-googleplus-outline, .testdesc > a > .ion-social-snapchat, .testdesc > a > .ion-social-linkedin {
+		text-align: center;
+	    display: block;
+	    float: none;
+	}
+
+	.postfooter {
+		margin-left: -7px;
+	}	
+
+	.hero {
+ 	 -webkit-clip-path: polygon(0 0, 800px 0, 800px 80%, 0 100%);
+  	clip-path: polygon(0 0, 800px 0, 800px 80%, 0 100%);
+	}
+
+} /*991 end*/
+
+@media (min-width: 563px) and (max-width: 1314px) {
+
+	.hero {
+    	height: 100vh;
+	}
+
+} /*563 and 1314 end*/
+
+@media (min-width: 992px) and (max-width: 1314px) {
+	.testi {
+		max-width: 90% !important;
+		margin-right: 0.5em;
+		padding: 15px;
+	}
+
+	.testdesc > p {
+		font-size: 13px;
+	}
+
+	.paravatar {
+		font-size: 15px;
+	}
+
+	.head2 {
+		padding: 50px 30px;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	h3, .h3 {
+		font-size: 21px;
+	}
+
+	.herohead {
+		font-size: 20px;
+		margin-left: 0;
+		text-align: center;
+		margin-top: -0.8em;
+	}
+
+	img.right-mobi, img.right-mobile2, img.right-mobile3 {
+		width: 135%;
+	}
+
+	img.right-mobile3 {
+	    margin-left: 0;	
+	}
+
+} /*992 and 1314 end*/
+
+@media screen and (max-width: 562px) {
+
+	.row.supportrow {
+		visibility: visible;
+		padding: 50px;
+		background-color: #fafafa;
+	}
+
+	.hero {
+		height: 250px;
+		position: relative;
+        display: block;
+        background-position: 0; 
+	}
+
+	.herohead {
+	    font-size: 17px;
+	    margin-top: -7em;    
+	}
+
+	.logo {
+	    margin-left: auto;
+    	margin: 0 auto;
+    	float: none;	
+	}
+
+	.headbutt {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.headbutt {
+		display: none;
+	}
+
+	.headbutton {
+	    margin-bottom: 2em;
+    	margin-top: 3em;	
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	h3, .h3 {
+    	font-size: 19px;
+	}
+
+	.head2 {
+		padding: 20px 25px;
+	}
+
+	hr.divider {
+	    padding-top: 20px;
+    	margin-bottom: 25px;
+	}
+
+	.avatar, .testdesc {
+		margin-left: 5px;
+		margin-right: 0;
+	}
+
+	.avatar {
+		float: none;
+	    margin: 0 auto;
+    	display: block;	
+    	margin-top: 20px;
+	}
+
+	.paravatar {
+		text-align: center;
+	}
+
+	.testdesc {
+		padding-left: 0;		
+	}
+
+	.testdesc > p {
+		font-style: italic;
+		text-align: center;
+	}
+
+	.testi {
+	    width: 100%;
+	    max-width: 100%;    
+	    margin: 0 auto;
+	    float: none;
+	    margin-bottom: 30px;    
+	}
+
+	p.testimonials {
+	    margin-bottom: 40px;	
+	}
+
+	.CTA {
+	    padding: 70px 20px;
+	}
+
+	h3.cta {
+		margin-top: 0;
+	    font-size: 24px;	
+	}
+
+	p.cta {
+	    font-size: 17px;
+    	width: 73%;
+    	margin: 0 auto;
+    	margin-top: 25px;		
+	}
+
+	.footerbox {
+	    float: none;
+    	width: 100%;	
+    	max-width: 320px;
+    	margin: 0 auto;
+    	text-align: left;
+    	vertical-align: middle;
+    	display: block;
+    	padding-left: 12px;
+	}
+
+	.footerbox:hover, .footerbox:focus, .footerbox:active {
+	    margin-top: 0;	
+	}	
+
+	.ion-social-facebook, .ion-social-twitter, .ion-social-instagram-outline,
+	.ion-social-googleplus-outline, .ion-social-snapchat, .ion-social-linkedin {
+		float: left;
+	}
+
+	.paravatar:hover, .paravatar:active, .paravatar:focus, .footerbox:hover {
+		font-style: normal;
+	}
+
+	.ion-social-facebook {
+		padding-left: 20px;
+    	padding-right: 20px;
+	}
+
+	.auth1 {
+		float: left;
+		font-size: 14px;
+		text-align: center;
+		margin-left: 20px;
+		padding-left: 4.9%;
+	}
+
+	.tesimonials {
+	    padding: 50px 15px;	
+	}
+
+	.postfooter {
+		margin-left: -10px;
+	}
+
+}	/*562 end*/
+
+/* End of CSS, start ruling */

@@ -1,0 +1,174 @@
+/* =====================================================================
+ *   "Yellow" Skin
+ * =================================================================== */
+/* =====================================================================
+ *   "Blue" Skin
+ * =================================================================== */
+/* Style Switcher */
+.demos-preview li a h5 {
+  color: #4e4ada; }
+
+/* Links Colors */
+a {
+  color: #4e4ada; }
+
+a:focus {
+  color: #4e4ada; }
+
+p a:hover {
+  border-color: #4e4ada; }
+
+/* Headings */
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+.subheader {
+  color: #4e4ada; }
+
+/* Text Colored */
+.colored {
+  color: #4e4ada; }
+
+/* Scroll Top */
+.scroll-top,
+.scroll-top:focus {
+  background: #4e4ada; }
+
+/* Buttons */
+.btn.colorful {
+  background: #4e4ada;
+  border-color: #4e4ada; }
+
+.btn.transparent-colorful {
+  color: #4e4ada;
+  border-color: #4e4ada; }
+
+.btn.hover-colorful:hover {
+  background: #4e4ada;
+  border-color: #4e4ada; }
+
+.btn.hover-transparent-colorful:hover {
+  color: #4e4ada;
+  border-color: #4e4ada; }
+
+/* Scroll Progress */
+#scroll-progress .scroll-progress {
+  background: #4e4ada; }
+
+/* Loading Progress */
+#loading-progress::before {
+  background: #4e4ada; }
+
+#loading-progress .lp-bar #lp-bar {
+  background: #4e4ada; }
+
+/* Forms */
+input[type="submit"],
+input[type="submit"].form-control,
+input[type="submit"],
+input[type="submit"].form-control {
+  background: #4e4ada; }
+
+input:focus,
+input.form-control:focus,
+textarea:focus,
+textarea.form-control:focus,
+select:focus,
+select.form-control:focus {
+  border-color: #4e4ada; }
+
+/* Video Preview Banner */
+.video-preview.vp-banner {
+  border-top-color: #4e4ada; }
+
+.video-btn i {
+  background: #4e4ada; }
+
+/* Icons */
+.icon.colorful-icon i {
+  color: #4e4ada; }
+
+/* Testmonial Single 1 */
+.testmonial-single-1 .quote-sign {
+  color: #4e4ada; }
+
+/* Main Menu */
+.sticky #header-wrap .main-menu > li > a.current,
+.sticky #header-wrap .main-menu > li:hover > a,
+.sticky #header-wrap .main-menu > li > a:hover {
+  color: #4e4ada; }
+
+.main-menu > li > a.current,
+.main-menu > li:hover > a,
+.main-menu > li > a:hover {
+  color: #4e4ada; }
+
+.main-menu ul.sub-menu li a:hover, .main-menu ul.sub-menu li:hover > a {
+  color: #4e4ada; }
+
+.main-menu.sf-arrows li > a.sf-with-ul:focus:after,
+.main-menu.sf-arrows li:hover > a.sf-with-ul:after,
+.main-menu.sf-arrows .sfHover > a.sf-with-ul:after {
+  color: #4e4ada; }
+
+/* Mobile Menu */
+.mobile-menu li:hover > a {
+  color: #4e4ada; }
+
+.mobile-menu > li > a:hover, .mobile-menu > li > a.current {
+  color: #4e4ada; }
+
+.mobile-menu.sf-arrows > li > a.sf-with-ul:focus:after,
+.mobile-menu.sf-arrows > li:hover > a.sf-with-ul:after,
+.mobile-menu.sf-arrows > .sfHover > a.sf-with-ul:after {
+  color: #4e4ada; }
+
+.mobile-menu.sf-arrows li > a.sf-with-ul:focus:after,
+.mobile-menu.sf-arrows li:hover > a.sf-with-ul:after,
+.mobile-menu.sf-arrows .sfHover > a.sf-with-ul:after {
+  color: #4e4ada; }
+
+/* Banner Slider */
+.banner-slider .owl-nav [class*="owl-"]:hover {
+  background: #4e4ada; }
+
+.banner-slider .owl-nav [class*="owl-"] {
+  background: #4e4ada; }
+
+.banner-slider .owl-dots .owl-dot.active span, .banner-slider .owl-dots .owl-dot.active:hover span {
+  background: #4e4ada; }
+
+/* Signup Form */
+.signup-form input[type="submit"] {
+  border-color: #4e4ada;
+  background: #4e4ada; }
+
+/* Box Header Form */
+.box-header-form {
+  border-top-color: #4e4ada; }
+
+.box-header-form .form-note i {
+  color: #4e4ada; }
+
+/* Testmonials Slider */
+.testmonials-slider .owl-dots .owl-dot.active span,
+.testmonials-slider .owl-dots .owl-dot.active:hover span {
+  border-color: #4e4ada; }
+
+/* Our Clients */
+#our-clients .section-content {
+  background: #4e4ada; }
+
+/* Clients Slider */
+.clients-slider .owl-nav [class*="owl-"] {
+  background: #4e4ada; }
+
+.clients-slider .owl-dots .owl-dot.active:hover span {
+  background: #4e4ada; }
+
+/* Footer */
+.social-icons.colorful li a {
+  background: #4e4ada; }

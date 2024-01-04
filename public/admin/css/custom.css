@@ -1,0 +1,51 @@
+button:focus{outline:none;}
+textarea{resize:none;}
+
+.dw-user-box .u-img{width:100px; text-align:center;}
+.dw-user-box .u-img span{font-size:30px; color:#069;}
+
+.box-perfil .tab-content .card-body h3{margin-bottom:20px;}
+
+.box-alerta-aviso,
+.box-alerta-erro{padding-bottom:0px;}
+
+.drop-subtitle{display:block; font-size:12px; color:#CCC;}
+
+.navbar-brand{width:100%; text-align:center;}
+
+.botoes-dashboard [class*="col-"]{padding:20px;}
+.botoes-dashboard .btn{width:100%; display:block; font-size:20px; text-align:center; border-radius:14px; margin:10px;}
+.botoes-dashboard .btn i{font-size:40px; display:block;}
+
+.table .bg-info th{color:#FFF;}
+.tdacao{width:30px; text-align:center; padding-left:0px; padding-right:0px;}
+.tdacao a{display:block;}
+.tdacao.td-edt a{color:#069;}
+.tdacao.td-del a{color:red;}
+
+form .control-label{font-weight:bold; font-size:16px; font-family:Helvetica, Arial, sans-serif !important; padding-bottom:4px;}
+.form-bv .form-control-feedback {
+    position: static;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+  .table-responsive .table {
+    overflow-x: hidden !important;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }

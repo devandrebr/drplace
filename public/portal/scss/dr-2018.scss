@@ -1,0 +1,497 @@
+/**
+* @file ../css/skins/dr-2018.css
+*/
+
+$cor-1: #FF7D00;
+$cor-2: #D8450C; /*:hover*/
+$cor-3: #4C8EFB; /*user-logado*/
+
+
+.btn-theme{
+    color: #FFF;
+    background: $cor-1;
+    border: solid 1px $cor-1;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.btn-theme:hover{
+    color: #FFF;
+    background: $cor-2;
+    border: solid 1px $cor-2;
+}
+
+.modal-right-content .bullets li i{
+    color: $cor-1;
+}
+
+.top-header-bg {
+    background: $cor-3;
+}
+
+.form-inline a:hover{
+    color: $cor-1;
+}
+
+.show-more-options, .show-more-options:hover {
+    color: $cor-1!important;
+}
+
+.overview .btn-border:hover{
+    border: solid 2px $cor-2;
+    background: $cor-2;
+}
+
+.categories ul li a:hover{
+    color: $cor-1;
+}
+
+.checkbox-theme input[type="checkbox"]:checked + label::before {
+    background-color: $cor-1;
+    border-color: $cor-1;
+}
+
+.tabbing-box .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: $cor-1;
+}
+
+.tabbing-box .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
+    background-color: $cor-1;
+}
+
+#page_scroller {
+    background: $cor-1;
+}
+
+.setting-button {
+    background: $cor-1;
+}
+
+.overview .btn-border{
+    color: $cor-1;
+    border: solid 2px $cor-1;
+}
+
+.overview .btn-border:hover{
+    border: solid 2px $cor-2;
+    background: $cor-2;
+}
+
+.banner-bg-color{
+    background: $cor-2;
+}
+
+.btn-white-sm-outline:hover{
+    background: $cor-2;
+    border: solid 1px $cor-2;
+}
+
+
+.btn-white-lg-outline:hover{
+    background: $cor-2;
+    border: solid 2px $cor-2;
+}
+
+.btn-color{
+    background: $cor-1;
+    border-color: $cor-1;
+    color:#FFF;
+}
+
+.btn-color:hover{
+    background: $cor-2;
+    border-color: $cor-2;
+    color:#FFF;
+}
+
+.btn-color:not([disabled]):not(.disabled).active, .btn-color:not([disabled]):not(.disabled):active, .show > .btn-color.dropdown-toggle {
+    color: #fff;
+    background-color: $cor-2;
+    border-color: $cor-2;
+    box-shadow: none;
+}
+
+.btn-theme-sm-outline{
+    color: $cor-2 !important;
+    border: solid 2px $cor-2;
+}
+
+.btn-theme-sm-outline:hover{
+    background: $cor-2;
+    border: solid 2px $cor-2;
+}
+
+.btn-border{
+    color: $cor-1;
+    border: solid 1px $cor-1;
+}
+
+.btn-border:not([disabled]):not(.disabled).active, .btn-border:not([disabled]):not(.disabled):active, .show > .btn-border.dropdown-toggle {
+    color: #fff;
+    background-color: $cor-1;
+    border-color: $cor-1;
+    box-shadow: none;
+}
+
+.leaflet-container a {
+    color: $cor-1;
+}
+
+.btn-border:hover{
+    color: #fff;
+    border: solid 1px $cor-2;
+    background: $cor-2;
+}
+
+.coming-soon-inner .btn, .coming-soon-inner .btn:hover, .coming-soon-inner .btn:active {
+    background: $cor-1;
+}
+
+.megamenu-area .dropdown-item:hover {
+    color: $cor-1;
+}
+
+.main-header .navbar-expand-lg .navbar-nav .active .nav-link{
+    color: $cor-1 !important;
+    border-bottom: solid 2px $cor-1;
+}
+
+.main-header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    border-bottom: solid 2px $cor-1;
+    color: $cor-1 !important;
+}
+
+.main-header .dropdown-menu a:hover {
+    background: transparent;
+    color: $cor-1;
+}
+
+.sub-banner .breadcrumbs li a:hover {
+    color: $cor-1;
+}
+
+.sub-banner-2 .breadcrumbs li a:hover {
+    color: $cor-1;
+}
+
+.option-bar h4 {
+    color: $cor-1;
+}
+
+.option-bar .heading-icon {
+    background: $cor-1;
+}
+
+.option-bar h4 {
+    color: $cor-1;
+}
+
+.option-bar .heading-icon .icon-design {
+    color: $cor-1;
+}
+
+.change-view-btn {
+    color: $cor-1;
+    border: solid 1px $cor-1;
+}
+
+.active-view-btn {
+    background: $cor-1;
+    border: solid 1px $cor-1;
+}
+
+.change-view-btn:hover {
+    border: solid 1px $cor-1;
+    background: $cor-1;
+}
+
+.overlay-link:hover{
+    background: $cor-1;
+    border: 2px solid $cor-1;
+}
+
+.property-box .detail .title a{
+    color: $cor-1;
+}
+
+.property-box-2 .detail h4{
+    color: $cor-1;
+}
+
+.property-box-3 h5{
+    color: $cor-1;
+}
+
+.property-box-5 .detail .title a {
+    color: $cor-1;
+}
+
+.services-info i{
+    color: $cor-1;
+}
+
+.services-info-3 i{
+    color: $cor-1;
+}
+
+.services-info-2 i {
+    color: $cor-1;
+}
+
+.attachments a:hover {
+    color: $cor-1;
+}
+
+.user-profile-box .detail ul li .active {
+    color: $cor-1;
+}
+
+.user-profile-box .detail ul li a:hover {
+    color: $cor-1;
+}
+
+.blog-list .photo .date-box {
+    background: $cor-1;
+}
+
+.faq-accordion .card-header:before {
+    color: $cor-1;
+}
+
+.property-box-6 ul li i{
+    color: $cor-1;
+}
+
+.intro-section {
+    background: $cor-1;
+}
+
+.property-box-6 h3{
+    color: $cor-1;
+}
+
+.services-info-3 h5 {
+    color: $cor-1;
+}
+
+.modal-left-content .control{
+    background: $cor-1;
+}
+
+.modal-right-content .price {
+    color: $cor-1;
+}
+
+.testimonial .carousel-indicators .active {
+    background-color: $cor-1;
+}
+
+.carousel-indicators .active {
+    background-color: $cor-1;
+}
+
+.pricing.featured .listing-badges .featured {
+    background: $cor-1;
+}
+
+.pricing-3 .featured{
+    color: $cor-1;
+}
+
+.pages-404 .pages-404-inner h5 {
+    color: $cor-1;
+}
+
+.blog-grid-box .date-box {
+    background: $cor-1;
+}
+
+.pagination > li > .active {
+    background: $cor-1;
+}
+
+.pagination > li > a:hover{
+    background: $cor-1;
+}
+
+.tags ul li a:hover{
+    border: solid 1px $cor-1;
+    background: $cor-1;
+}
+
+.latest-tweet p a{
+    color: $cor-1;
+}
+
+.shop-box .shop-details h4{
+    color: $cor-1;
+}
+
+.form-check a{
+    color: $cor-1;
+}
+
+.form-check a:hover{
+    color: $cor-2;
+}
+
+.login-footer p a{
+    color: $cor-1;
+}
+
+.login-footer p a:hover{
+    color: $cor-2;
+}
+
+.about-text ul li i {
+    color: $cor-1;
+}
+
+.amenities-box li i {
+    color: $cor-1;
+}
+
+.features-opions ul li i {
+    color: $cor-1;
+}
+
+.helping-center i{
+    color: $cor-1;
+}
+
+.coming-soon-inner h1 span{
+    color: $cor-1;
+}
+
+.filteriz-navigation li:hover {
+    color: $cor-1;
+}
+
+li.active.btn.filtr-button.filtr {
+    color: $cor-1;
+}
+
+.view-all ul li a:hover{
+    background: $cor-1;
+}
+
+.brand-box-2 h5 a{
+    color: $cor-1;
+}
+
+.search-area-3 {
+    border-top: 3px solid $cor-1;
+}
+
+.min-value {
+    color: $cor-1;
+}
+
+.max-value {
+    color: $cor-1;
+}
+
+.range-slider .ui-slider .ui-slider-handle {
+    background: $cor-1;
+}
+
+.range-slider .ui-slider .ui-slider-handle {
+    border: 2px solid $cor-1;
+}
+
+.range-slider .ui-widget-header {
+    background-color: $cor-1;
+}
+
+
+.map-marker:hover {
+    background-color: $cor-1;
+    cursor: pointer;
+}
+.map-marker:hover:before {
+    border-color: $cor-1 transparent transparent transparent;
+}
+
+.map-marker.featured:hover {
+    background-color: $cor-1;
+}
+.map-marker.featured:hover:before {
+    border-color: $cor-1 transparent transparent transparent;
+}
+
+.map-marker .icon {
+    border: 3px solid $cor-1;
+}
+
+.marker-active .map-marker {
+    background-color: $cor-1;
+}
+.marker-active .map-marker:before {
+    border-color: $cor-1 transparent transparent transparent;
+}
+
+.map-properties .address i{
+    color: $cor-1;
+}
+
+.map-properties-btns .border-button-theme{
+    color: $cor-1 !important;
+}
+
+.map-properties-btns .border-button-theme:hover{
+    color: #fff !important;
+}
+.map-properties .map-content h4 a{
+    color: $cor-1;
+}
+
+.map-properties .map-properties-fetures span i {
+    color: $cor-1;
+}
+
+.dropzone-design:hover {
+    border: 2px dashed $cor-1;
+}
+
+/** MEDIA **/
+@media (max-width: 992px) {
+    .main-header .navbar-expand-lg .navbar-nav .active .nav-link{
+        color: $cor-1 !important;
+    }
+
+    .main-header .navbar-expand-lg .navbar-nav .nav-link:hover {
+        color: $cor-1 !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: $cor-1;
+    }
+}
+
+
+@media (min-width: 991px) {
+    .sticky-header .navbar-expand-lg .navbar-nav .active .nav-link {
+        color: #fff !important;
+        border-bottom: solid 2px transparent;
+    }
+
+    .sticky-header .navbar-expand-lg .navbar-nav .nav-link:hover {
+        color: #fff !important;
+        border-bottom: solid 2px transparent;
+        opacity: .8;
+    }
+
+    .header-shrink .navbar-expand-lg .navbar-nav .active .nav-link {
+        color: #515151 !important;
+    }
+
+    .header-shrink .navbar-expand-lg .navbar-nav .nav-link:hover {
+        color: #515151 !important;
+    }
+
+    .header-shrink .btn-white-sm-outline {
+        color: $cor-1;
+        border: solid 2px $cor-1;
+    }
+}

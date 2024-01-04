@@ -1,0 +1,36 @@
+.box-mob{display:none;}
+.box-web{display:block;}
+.box-web p.lead{margin:10px auto !important;}
+.coming-soon-inner{margin-top:40px !important;}
+.coming-soon-inner form .control-label{padding-bottom:20px !important;}
+
+.coming-soon-inner h2{font-size:18px !important; font-weight:normal !important; color:#FFF;}
+
+.box-web p.lead,
+.box-mob p.texto-mob{font-size:1.3em !important;}
+
+.alert.alert-success .al-titulo{color:#155724 !important;}
+.alert.alert-danger .al-titulo{color:red !important;}
+
+.coming-soon-inner .box-web form input,
+.coming-soon-inner .box-web form button{width:100% !important; border-radius:4px !important;}
+/* .coming-soon-inner form input{border-radius:4px !important;} */
+.coming-soon-inner .box-web form .btn,
+.coming-soon-inner .box-web form .btn:hover,
+.coming-soon-inner .box-web form .btn:focus{height:42px;}
+
+@media (max-width: 1024px) {
+  .box-mob{display:block; padding-top:20px;}
+  .box-web{display:none;}
+
+  .coming-soon-inner,
+  .coming-soon-inner .coming-form{margin-top:0px !important;}
+  .coming-soon-inner h2{font-size:1.3em !important;}
+
+  .coming-soon .container-fluid,
+  .coming-soon .coming-soon-bg{padding:0px !important; margin:0px !important;}
+  .coming-soon .container-fluid .row{margin-right:0px !important; margin-left:0px !important;}
+
+  .coming-soon .coming-soon-text{background-color:#FFF !important; padding:20px auto;}
+  .coming-soon .coming-soon-text .form-inline label{color:#000; padding-bottom:10px;}
+}
