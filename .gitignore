@@ -1,0 +1,12 @@
+*.zip
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.dbt
+
+composer.lock
+/vendor
